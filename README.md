@@ -4,7 +4,7 @@ A neural network that learn to recognize hand written digits
 ### Installation
 This project uses mainly two libraries: numpy and matplotlib. cPickle and gzip are also used to load the mnist database. The easiest way to get started is to install [Anaconda](https://www.continuum.io/why-anaconda), informations can be found [here](https://www.continuum.io/downloads) for every OS.
 
-If your goal is a simple presentation click this [link]() to open the jupyter notebook in your browser so you do not have to install anything.
+If your goal is a simple presentation click this [link](https://nbviewer.jupyter.org/github/niccolomarcon/DigitRecogniser/blob/master/notebook.ipynb) to open the jupyter notebook in your browser so you do not have to install anything.
 
 ### Run the script
 Simply run
