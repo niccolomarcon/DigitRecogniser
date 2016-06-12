@@ -4,7 +4,7 @@ import mnist
 import matplotlib.pyplot as plt
 
 print 'Loading the data set...'
-number = 1000
+number = 1350
 digits_train, labels_train, digits_test, labels_test = mnist.load(number)
 net = NeuralNetwork.NeuralNetwork(784, 15, 10)
 print 'Data set loaded'

@@ -14,7 +14,7 @@ $ python main.py
 You should see an output like this
 ```
 Loading the dataset...
-Dataset Loaded
+Dataset loaded
 
 Learning...
 Learned
@@ -35,3 +35,6 @@ If you have installed Anaconda you should be able to run
 $ jupyter notebook
 ```
 so you can play with the notebook in the browser.
+
+### Help
+Currently the best score is 98.96% on training and 83.04% on test. If you get a better score please submit a pull request with the settings you used. Thank you! 🚀

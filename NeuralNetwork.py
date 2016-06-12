@@ -1,12 +1,12 @@
 import numpy as np
 
 class NeuralNetwork(object):
-    def __init__(self, inputs, hiddens, outputs, lamda1 = 0.1, lambda2 = 0.2):
+    def __init__(self, inputs, hiddens, outputs, lambda1 = 1.125, lambda2 = 2.25):
         # set some default vars
         self._inputNumber  = inputs
         self._hiddenNumber = hiddens
         self._outputNumber = outputs
-        self.l1 = lamda1
+        self.l1 = lambda1
         self.l2 = lambda2
 
         # initialize the weights
@@ -50,7 +50,7 @@ class NeuralNetwork(object):
 
         return dEdW1, dEdW2
 
-    def train(self, X, Y, testX, testY, cycles = 4500, rate = 0.003):
+    def train(self, X, Y, testX, testY, cycles = 4850, rate = 0.0017):
         self.TrainingPlot = []
         self.OverfitPlot = []
 
