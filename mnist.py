@@ -8,6 +8,7 @@ def displayDigit(digit):
     image = np.reshape(digit, (28, 28))
     plt.axis('off')
     plt.imshow(image, interpolation = "nearest", cmap = cm.Greys)
+    #plt.clf()
 
 def prettyGuess(net, image):
     res = net.forward(image)

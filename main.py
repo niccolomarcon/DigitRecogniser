@@ -14,13 +14,7 @@ net.train(digits_train, labels_train, digits_test, labels_test)
 print 'Learned'
 
 # We can plot the training process
-# plt.plot(net.TrainingPlot)
-# plt.plot(net.OverfitPlot)
-# plt.xlabel('Iterations')
-# plt.ylabel('Error')
-# plt.legend(['Training', 'Testing'])
-# plt.show()
-# plt.clf()
+# net.plot()
 
 # Calculate the accuracy
 right_train = 0.

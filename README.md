@@ -37,4 +37,4 @@ $ jupyter notebook
 so you can play with the notebook in the browser.
 
 ### Help
-Currently the best score is 98.96% on training and 83.04% on test. If you get a better score please submit a pull request with the settings you used. Thank you! 🚀
+Currently the best score is 98.89% on training and 83.41% on test. If you get a better score please submit a pull request with the settings you used. Thank you! 🚀

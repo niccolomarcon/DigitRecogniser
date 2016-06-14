@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 class NeuralNetwork(object):
     def __init__(self, inputs, hiddens, outputs, lambda1 = 1.125, lambda2 = 2.25):
@@ -60,3 +61,13 @@ class NeuralNetwork(object):
             self.W2 = self.W2 - (rate * (dw2 + self.W2 * self.l2))
             self.TrainingPlot.append(sum(self.costFunction(X, Y)))
             self.OverfitPlot.append(sum(self.costFunction(testX, testY)))
+
+    def plot(self):
+        plt.plot(self.TrainingPlot)
+        plt.plot(self.OverfitPlot)
+        plt.xlabel('Iterations')
+        plt.ylabel('Error')
+        plt.legend(['Training', 'Testing'])
+        plt.axis('on')
+        plt.show()
+        #plt.clf()
