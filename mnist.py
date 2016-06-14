@@ -6,6 +6,7 @@ from matplotlib import cm
 # display functions
 def displayDigit(digit):
     image = np.reshape(digit, (28, 28))
+    plt.axis('off')
     plt.imshow(image, interpolation = "nearest", cmap = cm.Greys)
 
 def prettyGuess(net, image):
